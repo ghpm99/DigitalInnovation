@@ -1,3 +1,2 @@
 # Repositorio para atividades do curso da Digital Innovation
-## Curso de Java e Angular
-
+## Curso de Java, Angular e Git
