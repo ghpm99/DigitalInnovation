@@ -8,7 +8,7 @@ public class Aula {
 		// TODO Auto-generated method stub
 		UnaryOperator<Integer> calcularValorVezesTres = valor -> valor * 3;
 		int valor = 10;
-		System.out.println("O resultado é: " + calcularValorVezesTres.apply(valor));
+		System.out.println("O resultado e: " + calcularValorVezesTres.apply(valor));
 	}
 
 }
