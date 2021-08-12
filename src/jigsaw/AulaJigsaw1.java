@@ -1,6 +1,6 @@
-package paralelo;
+package jigsaw;
 
-public class AulaThread1 {
+public class AulaJigsaw1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
