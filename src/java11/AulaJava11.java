@@ -26,8 +26,7 @@ public class AulaJava11 {
 	private static HttpResponse<String> connectAndPrintJavaOracle() throws IOException, InterruptedException {
 		var request = HttpRequest.newBuilder().GET().uri(URI.create("https://www.naointendo.com.br")).build();
 		HttpClient httpCliente = HttpClient.newHttpClient();
-		HttpResponse<String> response = httpCliente.send(request, HttpResponse.BodyHandlers.ofString());
-		
+		HttpResponse<String> response = httpCliente.send(request, HttpResponse.BodyHandlers.ofString());		
 		return response;
 	}
 
